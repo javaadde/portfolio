@@ -1,0 +1,205 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+
+
+        scroll-behavior: smooth;
+
+    
+        font-family: "Righteous", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+
+
+        background: #000;
+
+        
+
+       
+
+}
+
+:root{
+
+    --bg--color:#282e2d;
+    --sc--main-color: #293a39;
+    --border-c:#26d3ee;
+    --text--color: rgb(64, 243, 184);;
+
+}
+
+
+/* section - header */
+
+
+
+.nav-btn a{
+ 
+    font-size: 60px;
+    color: var(--border-c);
+}
+#nav-btn{
+    display: flex;
+    margin-left: 95%;
+}
+
+
+
+#navbar{
+    display: none;
+}
+
+
+
+#navbar .container{
+    width: 97%;
+    height: 75px;
+    background:rgb(102, 78, 239);
+
+   border-radius: 30px;
+
+   margin-left: 25px;
+
+   text-align: center;
+}
+
+
+
+
+.container a {
+    text-decoration: none;
+    font-size: 26px;
+
+    margin-left: 80px;
+
+    background: transparent;
+    color:var(--sc--main-color);
+}
+
+.container a:hover{
+    color: rgb(64, 243, 184);
+    transition: 0.42s;
+}
+.ac{
+    color: rgb(64, 243, 184);
+}
+
+
+.container ul{
+    margin-top: 20px;
+    background: transparent;
+}
+
+
+/* section about */
+section{
+    padding-top: 50px;
+}
+
+.about{
+    padding-top: 100px;
+}
+
+h1{
+    font-size: 60px;
+    color:var(--text--color) ;
+    text-align: center;
+} 
+
+.about-img-containner{
+
+    margin-left: 270px;
+    
+
+}
+.about-img-containner img{
+    width: 80%;
+}
+
+
+/* section home */
+.jd-if{
+    width: 65%;
+
+    margin-left: 350px;
+}
+
+/* section media */
+
+.media{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    /* border: 5px solid var(--text--color); */
+}
+
+
+
+.cont-media a{
+    text-decoration: none;
+    font-size: 70px;
+    color: rgb(102, 78, 239);
+    padding-left: 40px;
+}
+
+
+.cont-media ul{
+    text-align: center;
+}
+
+
+/* section projects */
+
+
+.details-c{
+
+    margin-left: 60px;
+    margin-top: 30px;
+    position: absolute;
+    background: transparent;
+
+    h3{
+        background: transparent;
+        font-size: 30px;
+        color: var(--text--color);
+    }
+    p{
+        font-size: 12px;
+        color: var(--border-c);
+        background: transparent;
+    }
+
+}
+.img-c img{
+    width: 400px;
+}
+
+
+.contain{
+    position: relative;
+    padding-left: 130px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pro{
+    padding-left: 80px;
+    padding-top: 80px;
+}
+
+/* section copy :right */
+
+.copy-rigth{
+    height: 100px;
+}
+.copy-rigth a{
+    font-size: 80px;
+    color: var(--text--color);
+    margin-left: 92%;
+}
