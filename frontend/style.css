@@ -16,7 +16,11 @@
 
         background: #000;
 
-        
+        h3{
+            background: transparent;
+            font-size: 30px;
+            color: var(--text--color);
+        }
 
        
 
@@ -155,6 +159,12 @@ h1{
 
 /* section projects */
 
+#project{
+    text-align: center;
+    h3{
+        font-size: 32px;
+    }
+}
 
 .details-c{
 
@@ -163,11 +173,7 @@ h1{
     position: absolute;
     background: transparent;
 
-    h3{
-        background: transparent;
-        font-size: 30px;
-        color: var(--text--color);
-    }
+   
     p{
         font-size: 12px;
         color: var(--border-c);
@@ -201,5 +207,58 @@ h1{
 .copy-rigth a{
     font-size: 80px;
     color: var(--text--color);
-    margin-left: 92%;
+    margin-left: 88%;
+}
+
+.jd-if-mob{
+    display: none;
+}
+
+
+
+
+
+
+
+@media (max-width: 789px) {
+    
+.jd-if{
+    display: none;
+}
+.jd-if-mob{
+    display: flex;
+
+    width: 90%;
+
+    margin-left: 40px;
+}
+.container a{
+   margin-left: 0;
+   padding-left: 40px;
+}
+
+.container ul{
+
+    margin-right: 70px;
+}
+
+.cont-media a{
+    padding-left: 0;
+}
+.cont-media {
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.about-img-containner{
+    margin-left: 0;
+    margin-left: 20px;
+}
+.about-img-containner img{
+    width: 96%;
+}
+
+
+
 }
