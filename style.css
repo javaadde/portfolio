@@ -221,7 +221,8 @@ h1{
 
 
 
-@media(max-width: 789px) {
+ @media (max-width: 789px) { 
+
 
     section{
 
@@ -269,4 +270,4 @@ h1{
 
 
 
-}
+} 
