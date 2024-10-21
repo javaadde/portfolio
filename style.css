@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 *{
@@ -16,258 +15,174 @@
 
         background: #000;
 
-        h3{
-            background: transparent;
-            font-size: 30px;
-            color: var(--text--color);
-        }
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
 
+       
        
 
 }
 
+h1{
+    padding-top: 90px;
+    font-size: 67px;
+    color: var(--first-one);
+}
+
+
 :root{
+    --back:#000;
+    --first-one:rgb(96, 250, 104);
+    --sec-one:rgb(130, 238, 233);
+    --third-one:rgb(107, 62, 244);
 
-    --bg--color:#282e2d;
-    --sc--main-color: #293a39;
-    --border-c:#26d3ee;
-    --text--color: rgb(64, 243, 184);;
-
+    --last:rgb(58, 121, 114);
+    --hover-text:rgb(42, 68, 53);
 }
 
-
-/* section - header */
-
-
-
-.nav-btn a{
- 
-    font-size: 60px;
-    color: var(--border-c);
+.nav-button a{
+   font-size: 55px;
+   color: var(--first-one);
+   text-decoration: none;
+   margin-left: 90%;
 }
-#nav-btn{
+#this{
     display: flex;
-    margin-left: 95%;
+
 }
-
-
 
 #navbar{
+    text-align: center;
     display: none;
 }
 
 
+ .navbar{
+    width: 90%;
+    height: 100px;
+    background: var(--last);
 
-#navbar .container{
-    width: 97%;
-    height: 75px;
-    background:rgb(102, 78, 239);
-
-   border-radius: 30px;
-
-   margin-left: 25px;
-
-   text-align: center;
-}
+    margin-left: 90px;
 
 
-
-
-.container a {
-    text-decoration: none;
-    font-size: 26px;
-
-    margin-left: 80px;
-
-    background: transparent;
-    color:var(--sc--main-color);
-}
-
-.container a:hover{
-    color: rgb(64, 243, 184);
-    transition: 0.42s;
-}
-.ac{
-    color: rgb(64, 243, 184);
-}
-
-
-.container ul{
-    margin-top: 20px;
-    background: transparent;
-}
-
-
-/* section about */
-section{
-    padding-top: 50px;
-}
-
-.about{
-    padding-top: 100px;
-}
-
-h1{
-    font-size: 60px;
-    color:var(--text--color) ;
     text-align: center;
-} 
+    border: 5px solid var(--third-one);
 
-.about-img-containner{
-
-    margin-left: 270px;
-    
+  
 
 }
-.about-img-containner img{
-    width: 80%;
+
+.navbar ul a{
+    font-size: 30px;
+    text-decoration: none;
+    background: transparent;
+
+    color: var(--hover-text);
+
+    padding-left: 50px;
+}
+
+.navbar ul a:hover,
+#ac{
+    color: var(--first-one);
+    transition: 0.30s;
+}
+
+
+.navbar ul {
+    background: transparent;
+    padding-top: 15px;
+    margin-left: 30%;
 }
 
 
 /* section home */
-.jd-if{
-    width: 65%;
 
-    margin-left: 350px;
+.jd-if-mob{
+
+    display: none;
+}
+
+.jd-if{
+    width: 70%;
+
+    margin-left: 260px;
+    margin-top: 100px;
+
 }
 
 /* section media */
 
-.media{
-    padding-top: 100px;
-    padding-bottom: 100px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+.cont-media ul a{
+    font-size: 65px;
 
-    /* border: 5px solid var(--text--color); */
-}
-
-
-
-.cont-media a{
     text-decoration: none;
-    font-size: 70px;
-    color: rgb(102, 78, 239);
+    color: var(--sec-one);
+
     padding-left: 40px;
 }
+.cont-media{
 
-
-.cont-media ul{
+    margin-top: 190px;
+    margin-bottom: 100px;
     text-align: center;
 }
 
+.cont-media ul a:hover{
+
+    color: var(--first-one);
+
+}
+
+/* section about */
+
+.about{
+    text-align: center;
+}
+
+.about-img-containner img{
+    width: 70%;
+}
 
 /* section projects */
 
-#project{
-    text-align: center;
-    h3{
-        font-size: 32px;
-    }
-    
+.detials h2{
+  font-size: 34px;
+  color: var(--first-one);
+ 
 }
 
-.details-c{
-
-    margin-left: 60px;
-    margin-top: 30px;
-    position: absolute;
-    background: transparent;
-
-   
-    p{
-        font-size: 12px;
-        color: var(--border-c);
-        background: transparent;
-    }
-
-}
-.img-c img{
-    width: 400px;
+.detials p{
+  color: var(--sec-one);
+  
 }
 
-
-.contain{
-    position: relative;
-    margin-left: 230px;
-
+.container-div{
     display: flex;
     flex-wrap: wrap;
+    margin-left: 130px;
 }
 
 .pro{
-    padding-left: 80px;
-    padding-top: 80px;
+    padding-left: 180px;
+    /* position: absolute; */
+}
+.images a{
+    font-size: 40px;
+    color: aqua;
 }
 
-/* section copy :right */
+/* section bottom */
 
-.copy-rigth{
-    height: 100px;
-}
-.copy-rigth a{
-    font-size: 80px;
-    color: var(--text--color);
-    margin-left: 88%;
+.r-top a{
+    font-size: 65px;
+    color: var(--first-one);
+    margin-left: 92%;
 }
 
-.jd-if-mob{
-    display: none;
+.r-top{
+    margin-top: 100px;
+    height: 100px; 
 }
-
-
-
-
-
-
-
- @media (max-width: 789px) { 
-
-
-    section{
-
-        margin: 0 0 0 0 ;
-        padding: 0 0 0  0;
-
-    }
-    
-.jd-if{
-    display: none;
-}
-.jd-if-mob{
-    display: flex;
-
-    width: 90%;
-
-    margin-left: 40px;
-}
-.container a{
-   margin-left:0;
-   padding-left: 40px;
-}
-
-.container ul{
-
-    margin-right: 70px;
-}
-
-.cont-media a{
-    padding-left: 0;
-}
-.cont-media {
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
-}
-
-.about-img-containner{
-    margin-left: 0;
-    margin-left: 20px;
-}
-.about-img-containner img{
-    width: 96%;
-}
-
-
-
-} 

@@ -1,4 +1,6 @@
-function openBar(){
+
+
+function opennav(){
     document.getElementById("navbar").style.display="flex"
-    document.getElementById("nav-btn").style.display="none"
+    document.getElementById("this").style.display="none"
 }
