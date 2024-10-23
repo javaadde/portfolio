@@ -191,3 +191,110 @@ h1{
     margin-top: 100px;
     height: 100px; 
 }
+
+.images a span{
+    display: none;
+}
+
+
+@media(max-width: 449px){
+
+    
+
+    /* mobile home section */
+
+    .jd-if{
+        display: none;
+
+    }
+    .jd-if-mob{
+        display: flex;
+    }
+    
+    .jd-if-mob img{
+        width: 680px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+
+    /* navbar secton */
+
+   .nav-button a{
+    margin-left: 640px;
+    font-size: 70px;
+   }
+
+   .navbar {
+
+    position: fixed;
+
+   justify-content: space-between;
+   
+   margin-top: 10px;
+    margin-left: 50px;
+    text-align: center;
+    width: 700px;
+    height: 140px
+    
+   }
+   .navbar ul {
+    margin-left: 0px;
+    margin-right: 70px;
+    padding-top: 20px;
+   }
+   #navbar a{  
+   padding-top: 80px;
+   }
+
+   /* social media secton */
+
+   .cont-media{
+    width: 700px;
+   }
+
+   /* about me section */
+   .about{
+
+    width: 800px;
+   }
+
+   /* projjects section */
+
+   .project{
+    text-align: center;
+    h1{
+        margin-left: 260px;
+    }
+   }
+   .container-div{
+    margin-left: 0;
+    margin-right: 0px;
+   }
+
+   /* .images a span{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 0px;
+    color: blue;
+    text-decoration: none;
+} */
+
+
+  .images a{
+    text-decoration: none;
+  }
+  .images a i{
+
+    display: none;
+  }
+
+  /* return top secton */
+
+  .r-top{
+    width: 700px;
+  }
+
+}
+
+/* compleately finished */
