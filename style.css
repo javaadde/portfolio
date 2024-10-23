@@ -21,9 +21,13 @@
         bottom: 0;
 
        
-       
+       box-sizing: border-box;
 
 }
+
+
+
+
 
 h1{
     padding-top: 90px;
@@ -38,7 +42,7 @@ h1{
     --sec-one:rgb(130, 238, 233);
     --third-one:rgb(107, 62, 244);
 
-    --last:rgb(58, 121, 114);
+    --last:rgb(127, 102, 218);
     --hover-text:rgb(42, 68, 53);
 }
 
@@ -69,9 +73,10 @@ h1{
 
     text-align: center;
     border: 5px solid var(--third-one);
-
   
+    transition: 2s ease-in;
 
+   
 }
 
 .navbar ul a{
@@ -131,7 +136,7 @@ h1{
 }
 
 .cont-media ul a:hover{
-
+    
     color: var(--first-one);
 
 }
