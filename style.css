@@ -272,13 +272,13 @@ h1{
     margin-right: 0px;
    }
 
-   /* .images a span{
+   .images a span{
+    font-size: 30px;
     display: flex;
-    margin-left: 60px;
+    margin-left: 160px;
     margin-top: 0px;
-    color: blue;
     text-decoration: none;
-} */
+}
 
 
   .images a{
