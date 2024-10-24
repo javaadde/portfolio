@@ -197,8 +197,11 @@ h1{
 }
 
 
-@media(max-width: 449px){
+@media(max-width: 768px){
 
+    *{
+        width: auto;
+    }
     
 
     /* mobile home section */
@@ -212,8 +215,8 @@ h1{
     }
     
     .jd-if-mob img{
-        width: 680px;
-        margin-left: 50px;
+        width: 280px;
+        margin-left: 60px;
         margin-top: 50px;
     }
 
@@ -221,8 +224,8 @@ h1{
     /* navbar secton */
 
    .nav-button a{
-    margin-left: 640px;
-    font-size: 70px;
+    margin-left: 290px;
+    font-size: 40px;
    }
 
    .navbar {
@@ -232,53 +235,75 @@ h1{
    justify-content: space-between;
    
    margin-top: 10px;
-    margin-left: 50px;
+    margin-left: 10px;
     text-align: center;
-    width: 700px;
-    height: 140px
+    width: 410px;
+    height: 100px
     
    }
-   .navbar ul {
-    margin-left: 0px;
-    margin-right: 70px;
-    padding-top: 20px;
+   .navbar ul a{
+    font-size: 15px;
    }
-   #navbar a{  
-   padding-top: 80px;
-   }
+  .navbar ul{
+    margin-left: -20px;
+    padding-left: 0;
+    margin-right: 0px;
+  }
 
    /* social media secton */
 
    .cont-media{
-    width: 700px;
+    width: 400px;
+    margin-left: 0;
+   }
+   .cont-media ul a{
+    font-size: 30px;
+    padding-left: 12px;
+   }
+   .cont-media ul{
+    margin-left: 0;
+    margin-right: 50px;
    }
 
    /* about me section */
    .about{
 
-    width: 800px;
+    width: 400px;
    }
 
    /* projjects section */
 
    .project{
+    width: 400px;
     text-align: center;
     h1{
-        margin-left: 260px;
+        margin-left: 0px;
     }
    }
    .container-div{
+    padding-left: 0;
     margin-left: 0;
     margin-right: 0px;
    }
 
    .images a span{
-    font-size: 30px;
+    font-size: 10px;
     display: flex;
-    margin-left: 160px;
+    margin-left: 0px;
     margin-top: 0px;
     text-decoration: none;
 }
+ .images img{
+    width: 250px;
+    margin-left: -100px;
+    padding-left: 0;
+ }
+ .images
+ {
+  
+    margin-left: 0;
+    padding-left: 0;
+ }
 
 
   .images a{
@@ -292,8 +317,13 @@ h1{
   /* return top secton */
 
   .r-top{
-    width: 700px;
+    width: 400px;
   }
+  .r-top a{
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+  
 
 }
 
