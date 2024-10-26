@@ -260,11 +260,11 @@ h1{
     font-size: 65px;
     color: var(--first-one);
     margin-left: 92%;
+   padding-top: 60px;
 }
 
 .r-top{
     margin-top: 100px;
-    height: 100px; 
 }
 
 .images a span{
@@ -272,7 +272,59 @@ h1{
 }
 
 
+
+
+
+  /* responsive html */
+
+
+.respons-view{
+   width: 100%;
+   
+}
+.inside{
+    width: 200px;
+    height: 90px;
+    border-radius: 30px;
+    background: var(--last);
+    text-align: center;
+
+    margin-left: 300px;
+    margin-bottom: 50px;
+    
+}
+.inside a{
+    font-size: 30px;
+    text-decoration: none;
+    color:var(--hover-text);
+    background-color: transparent;
+    
+}
+.inside a:hover{
+    color: var(--sec-one);
+}
+
+
+
+::-webkit-scrollbar{
+    width: 9px;
+}
+::-webkit-scrollbar-track{
+    background:#000;
+}
+::-webkit-scrollbar-thumb{
+    background: var(--third-one);
+}
+::-webkit-scrollbar-thumb:hover{
+    background: var(--first-one);
+}
+
+
 @media(max-width: 768px){
+
+    .inside{
+        display: none;
+    }
 
     *{
         h1{
@@ -294,7 +346,7 @@ h1{
     
     .jd-if-mob img{
         width: 280px;
-        margin-left: 60px;
+        margin-left: 50px;
         margin-top: 50px;
     }
 
@@ -337,7 +389,7 @@ h1{
 
    .cont-media{
     margin-top: 0;
-    width: 400px;
+    
     margin-left: 0;
    }
    .cont-media ul a{
@@ -350,6 +402,10 @@ h1{
    }
 
    /* about me section */
+   .about-img-containner{
+    margin-left: 0px;
+    padding-left: 0;
+   }
    
    /* projjects section */
 
@@ -361,7 +417,7 @@ h1{
     }
    }
    .container-div{
-    padding-left: 0;
+    padding-left: 10px;
     margin-left: 0;
     margin-right: 0px;
    }
@@ -369,9 +425,10 @@ h1{
    .images a span{
     font-size: 10px;
     display: flex;
-    margin-left: 0px;
+    margin-left: 90px;
     margin-top: 0px;
     text-decoration: none;
+    
 }
  .images img{
     width: 250px;
@@ -380,7 +437,7 @@ h1{
  }
  .images
  {
-  
+   
     margin-left: 0;
     padding-left: 0;
  }
@@ -396,13 +453,11 @@ h1{
 
   /* return top secton */
 
-  .r-top{
-    width: 400px;
-  }
+  
   .r-top a{
     font-size: 30px;
     margin-bottom: 0;
-    margin-left: 300px;
+    margin-left: 325px;
   }
   
 
