@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+
+
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+    scroll-behavior: smooth;
+
+    
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+:root{
+
+    --bg-color:#408989;
+    --shadow-color:#35f2d3;
+    --main-color:#0a1212;
+    --text-color:#364645;
+    --bord-color:#86f8bd;
+}
+
+
+body{
+    background: url("/image/bb.jpg");
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1{
+    font-size: 80px;
+    color: var(--text-color);
+    text-shadow: 0 0 30px var(--shadow-color);
+   
+}
+
+
+.heading{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.card img{
+  width: 500px;
+  height: 79vh;
+
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.pro-card{
+  margin-left: 15%;
+  margin-top: 50px;
+  margin-bottom: 300px;
+  width: 70%;
+  height: 80vh;
+  border-radius: 30px;
+
+  border: 5px solid var(--main-color);
+  backdrop-filter: blur(20px);
+}
+
+
+
+
+@media (max-width:768px) {
+    .card img{
+        width: 100%;
+        height: 300px;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 25px;
+    }
+}
