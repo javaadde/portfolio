@@ -11,11 +11,11 @@ body{
 
 iframe{
     border-radius: 50px;
-
-   
-   
+    overflow: hidden;
 }
-
+::-webkit-scrollbar-track{
+    background: #000;
+}
 
 
 .i-container .i-frames{
