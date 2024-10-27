@@ -43,7 +43,7 @@ h1{
     font-size: 80px;
     color: var(--text-color);
     text-shadow: 0 0 30px var(--shadow-color);
-   
+    /* text */
 }
 
 
@@ -57,8 +57,9 @@ h1{
   width: 500px;
   height: 79vh;
 
+
   border-top-left-radius: 25px;
-  border-bottom-left-radius: 25px;
+   border-bottom-left-radius: 25px;  
 }
 
 .pro-card{

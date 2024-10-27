@@ -13,7 +13,6 @@
       
 
 
-        background: #000;
 
         top: 0;
         left: 0;
@@ -28,6 +27,8 @@
 
 body,html{
     cursor: url("./image/image-32x32.jpg") ,auto;
+    background: #000;
+
 }
 
 
@@ -171,29 +172,6 @@ h1{
 
 /* section cards */
 
- 
-.card-c{
-    margin-left: 280px;
-    width: 70%;
-    height: 500px;
-    justify-content: center;
-    display: flex;
-    gap: 10px;
-}
-.card-c img{
-    width: 10%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-    border: 2px solid var(--last);
-
-    transition: all ease-in-out 0.5s;
-}
-
-.card-c img:hover{
-    width: 25%;
-}
-
 .btn-c a{
     font-size: 30px;
     text-decoration: none;
@@ -260,45 +238,6 @@ h1{
 .images a span{
     display: none;
 }
-
-
-.bottum-slider a{
-   font-size: 30px;
-   color: var(--first-one);
-}
-
-
-
-
-
-  /* responsive html */
-
-
-
-
-.inside{
-    width: 320px;
-    height: 50px;
-    border-radius: 30px;
-    background: var(--last);
-    text-align: center;
-    margin-left: 40%;
-    margin-bottom: 50px;
-
-    display: none;
-     
-}
-.inside a{
-    font-size: 30px;
-    text-decoration: none;
-    color:var(--hover-text);
-    background-color: transparent;
-    
-}
-.inside a:hover{
-    color: var(--sec-one);
-}
-
 
 
 ::-webkit-scrollbar{
@@ -413,10 +352,10 @@ h1{
 
 
    /* cards section */
-
+/* 
    .cards{
     display: none;
-   }
+   } */
    
    /* projjects section */
 
@@ -478,4 +417,20 @@ h1{
 
 }
 
-/* compleately finished */
+
+
+
+.btn-c a{
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--first-one);
+}
+.btn-c{
+    margin-top: 0px;
+    border: 3px solid var(--third-one);
+    width: 130px;
+    margin-left: 33%;
+    background: var(--third-one);   
+    border-radius: 10px;
+}
+

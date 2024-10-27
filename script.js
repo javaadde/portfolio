@@ -29,15 +29,8 @@ function openlink(a){
 }
 
 
-// repo button open
 
-
-    function Openrep(){
-
-    document.getElementById("inside").style.display="flex";
-    document.getElementById("bottum-slider").style.display="none";
-
-}
+   
 
 
 
@@ -76,4 +69,9 @@ timeout = setTimeout(mousestopped,1000)
 document.addEventListener("mouseout",() =>{
     cursor.style.display = "none";
 });
+
+
+
+
+
 
