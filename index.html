@@ -16,6 +16,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
     <link rel="stylesheet" href="./none-public/slide.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
 
 </head>
 <body>
@@ -27,14 +28,7 @@
     <section class="header" id="header">
 
 
-        <div class="nav-button" id="this">
-            <a onclick="opennav()" href="#">
-                <i class='bx bx-chevrons-left bx-fade-left'></i>
-                <i class='bx bx-chevrons-left'></i>
-            </a>
-        </div>
-
-
+      
 
 
         <div class="navbar" id="navbar">
@@ -45,11 +39,22 @@
             <a id="ac" href="#header">Home</a>
             <a href="#about">About</a>
             <!-- <a href="#contact">Contact</a> -->
-            <a href="#home">Media</a>
+            <a href="#skills">skills</a>
             <a href="./none-public/projects.html">Projects</a>
 
                 </ul>
+ 
+                    
+                  <div class="themee">
+                <div class="theme-btn" id="theme-btn" onclick="theme()" 
+                aria-label="Change Theme" title="Change Theme" >
 
+                   <div class="drop">
+                    <p>Change <i class="fa-solid fa-palette"></i></p>
+                   </div>
+
+                </div>
+                  </div>
           
         </div>
 
@@ -61,25 +66,30 @@
 
     <section class="home" id="home" >
 
-        <div class="jd-if" href="#about">
+    
+      <div class="headding-name">
+        <h1>
+            <span>hello i'm </span><br>
+            Javad
+        </h1>
+      </div>
 
-       <img src="./image/home-jd-pc.png" alt="">
-
-        </div>
-
-
-
-
-        <div class="jd-if-mob" id="jd-mb">
-
-           <img src="image/Javad.jpg" alt="">
-
-        </div>
-
-
+      <div class="paragraph">
+        <p>
+            An experienced website designer with a <br>
+            passion for crafting unique digital experiences.
+        </p>
+      </div>
 
 
+      <div class="get-touch-btn">
+        <a href="mailto:iamkuttappiii@gmail.com">Get in touch ></a>
+      </div>
 
+      <div class="learn-more-btn">
+         <a href="#about">Learn More</a>
+      </div>
+     
 
     </section>
 
@@ -90,10 +100,10 @@
             <ul>
                
                 <a href="https://github.com/javaadde">  <i class='bx bxl-github bx-tada-hover'></i>  </a>
-                <a href="https://t.me/javaadde">   <i class='bx bxl-telegram bx-tada-hover'></i> </a>
+                <a href="https://t.me/javaadde"> <i class="fa-brands fa-telegram"></i></a>
                 <a href="https://www.linkedin.com/in/javad-muhammed-995a85329/">   <i class='bx bxl-linkedin bx-tada-hover' ></i> </a>
-                <a href="">   <i class='bx bxl-stack-overflow bx-tada-hover' ></i> </a>
-                <a href="https://www.instagram.com/javaadde/">  <i class='bx bxl-instagram-alt  bx-tada-hover' ></i> </a>
+                <a href="https://www.behance.net/javadjavaadde">  <i class='bx bxl-behance bx-tada-hover'></i> </a>
+                <a href="https://www.instagram.com/javaadde/">  <span><i class='bx bxl-instagram-alt  bx-tada-hover' ></i> </span></a>
 
             </ul>
         </div>
@@ -108,108 +118,152 @@
 
 
 
-        <h1>About Me</h1>
+        <h1>About Me</h1> 
 
 
-        <div class="about-img-containner">
+         <div class="para-about">  
+            <p>        
+     I enjoy solving problem, My passion for design, <br>
+     paired with my technical skills, <br>
+     allows me to craft websites that are not only <br>
+     functional but also aesthetically <br>
+            </p>
 
-            <img src="./image/1.png" alt="">
-            <img src="./image/2.png" alt="">
+            <p>iam web designer who is deeply passionate <br>
+               about writing codes, design and arts<br>
+                who loves making creative blockchain solutions<br>
+               and attractive/functional websites.<br>
+            </p>
+         </div>
 
+
+
+
+        <div class="skill-tool">
+           <span  id="span1"   onclick="skillchange()">skills</span> 
+           
+           <span id="span2"    onclick="toolchange()">tools</span>
         </div>
 
+        <section class="skills" id="skills">
+            <div class="skill-container">
+
+
+                
+
+                <div class="skill">
+                    <i class='bx bxl-javascript' ></i>
+                </div>
+
+
+                <div class="skill">
+                    <i class="fa-brands fa-css3-alt"></i>
+                </div>
+
+
+                <div class="skill">
+                    <i class='bx bxl-html5' ></i>
+                </div>
+
+
+
+                <div class="skill">
+                    <i class='bx bxl-c-plus-plus'></i>
+                </div>
+
+
+
+                <div class="skill">
+                    <i class='bx bxl-java' ></i>
+                </div>
+
+
+                <div class="skill">
+                    <i class="fa-solid fa-c"></i>    
+                </div>
+
+
+                <div class="skill">
+                    <i class='bx bxl-git'></i>
+                </div>
+
+
+                <div class="skill">
+                    <i class="fa-brands fa-rust"></i>
+                </div>
+
+
+            </div>
+        </section>
+
+
+
+
+        <section class="skills" id="tools">
+            <div class="skill-container">
+
+               
+                <div class="skill">
+                    <i class='bx bxl-jquery' ></i>
+                </div>
+
+                <div class="skill">
+                    <i class='bx bxs-terminal' ></i>
+                </div>
+
+
+                <div class="skill">
+                    <i class="fa-brands fa-figma"></i>
+                </div>
+
+
+                <div class="skill">
+                    <i class="fa-brands fa-linux"></i>     
+                </div>
+
+
+                <div class="skill">
+                    <i class="fa-brands fa-square-behance"></i>
+                </div>
+
+
+
+                <div class="skill">
+                    <i class="fa-brands fa-square-dribbble"></i>
+                </div>
+
+
+
+                
+
+
+            </div>
+        </section>
+
+
+
+
     </section>
-
-
-
-
-    
-
-
-
-
 
 
    <section class="project" id="project" style="text-align: center;">
     <h1>Projects</h1>
 
-    <section class="cards">
-
-      
-
-
-        <main>
-            <div class="swiper">
-    
-                <div class="swiper-wrapper">
-    
-                    <div class="swiper-slide">
-    
-                             <div class="swiper-slide-img">
-                            <img src="./image/Cards/card1.png" alt="" >
-
-                            <!-- <a href="./none-public/projects.html">click me</a> -->
-
-                             </div>
-                    
-                             
-                    </div>
-    
-    
-                    <div class="swiper-slide">
-    
-                        <div class="swiper-slide-img">
-                       <img src="./image/Cards/card2.png" alt="" >
-                        </div>
-    
-                    </div>
-    
-    
-                    <div class="swiper-slide" >
-    
-                        <div class="swiper-slide-img">
-                       <img src="./image/Cards/card3.png" alt="" >
-                        </div>
-    
-                    </div>
-    
-    
-    
-    
-                    <div class="swiper-slide">
-    
-                        <div class="swiper-slide-img">
-                       <img src="./image/Cards/card4.png" alt="" >
-                        </div>
-    
-                    </div>
-    
-    
-    
-    
-                    <div class="swiper-slide">
-    
-                        <div class="swiper-slide-img">
-                       <img src="./image/Cards/card5.png" alt="" >
-                        </div>
-    
-                    </div>
-                
-    
-             
-                   
-                    
-                </div>
-            </div>
-        </main>
     
 
 
-        <div class="btn-c">
-            <a href="./none-public/projects.html">khow more</a>
-        </div>
 
-    </section>
+
+
+
+    
+
+
+
+
+
+
+
 
    </section>
 
@@ -223,7 +277,7 @@
 
     <div class="r-top">
 
-        <a href="#header"><i class='bx bxs-chevron-up-square' ></i> </a>
+        <a href="#header"><i class='bx bx-chevron-up-square'></i> </a>
     </div>
 
 
