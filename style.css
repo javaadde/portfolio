@@ -807,12 +807,29 @@ h1{
     margin-left: 65%;
 }
 
+.cont-media ul a{
+    font-size: 30px;
+
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.cont-media ul a i{
+    font-size: 20px;
+}
+
+.cont-media ul{
+    margin-top: 170px;
+}
 
 
 /*              */
 /*     about    */
 /*              */
 
+.about{
+    padding-top: 200px;
+}
 
 .about .subtitle{
     margin-left: 1%;
@@ -825,6 +842,7 @@ h1{
 
 .para-about{
     width: 52%;
+    height: 30vh;
     margin-left: 32%;
 }
 
@@ -839,14 +857,13 @@ h1{
 /*     tool     */
 /*              */
 
-
 .skill-tool span{
     font-size: 18px;
 }
 
 .skill-container{
     width: 70%;
-    margin-left: 18%;
+    margin-left: 20%;
 
     margin-top: -50px;
 }
@@ -855,7 +872,7 @@ h1{
     width: 60px;
     height: 45px;
 
-    margin-left: 10px;
+    margin-left: 15px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
@@ -891,14 +908,22 @@ h1{
 
 
 
+/*                */
+/*  show more     */
+/*                */
 
 
+.more-link{
+    margin-left: 63%;
+}
 
 
 
 /*                */
 /*    rtn-top     */
 /*                */
+
+
 
 .r-top a{
     margin-left: 80%;
