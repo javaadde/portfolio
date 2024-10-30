@@ -1,67 +1,46 @@
 
 
-// function opennav(){
-//     document.getElementById("navbar").style.display="flex"
-//     document.getElementById("this").style.display="none"
-//     document.getElementById("jd-mb").style.marginTop="80px"
-// }
+//
+// ==>  navabar
+//
 
+function openNav(){
+    document.getElementById("navbar").style.display="flex";
+    document.getElementById("m-n-btn-open").style.display="none";
+    document.getElementById("m-n-btn-close").style.display="flex";
+}
 
-
-// link opening 
-
-function openlink(){
-   window.location.href="./none-public/projects.html";
+function closeNav(){
+    document.getElementById("navbar").style.display="none";
+    document.getElementById("m-n-btn-open").style.display="flex";
+    document.getElementById("m-n-btn-close").style.display="none";
 }
 
 
 
-   
+
+//
+// ==> show more button
+//
+
+function showMore() {
+    const elements = document.querySelectorAll(".no-display");
+    elements.forEach(element => {
+      element.style.display = "flex";
+    });
+
+    document.getElementById("show-btn").style.display="none"
+
+  }
+  
 
 
 
 
 
-
-
-// cursor 
-
-
-
-
-const cursor = document.querySelector(".cursor");
-var timeout;
-
-
-document.addEventListener('mousemove', (e) =>{
-    let x = e.pageX;
-    let y = e.pageY;
-
-   cursor.style.top = y + "px";
-   cursor.style.left = x + "px";
-   cursor.style.display = "block";
-
-   function mousestopped(){
-    cursor.style.display = "none"
-}
-
-clearTimeout(timeout);
-timeout = setTimeout(mousestopped,1000)
-
-});
-
-// cursor style on mouse
-
-document.addEventListener("mouseout",() =>{
-    cursor.style.display = "none";
-});
-
-
-
-
-
-
-// theme
+//
+// ==> theme changing
+//
 
 
 function theme(){
@@ -87,14 +66,18 @@ function theme(){
       root.style.setProperty('--back','#3e3e44');
     }
   
-   
 
-   
       
 
 }
 
-///skill and tool  shifting
+
+
+//
+/// ==> skill and tool  shifting
+//
+
+
 
 
   function toolchange(){

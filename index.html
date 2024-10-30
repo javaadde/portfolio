@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>javad.me</title>
 
+    <link rel="icon" href="./image/J.png" type="image/png">
 
 
 
    <link rel="stylesheet" href="style.css">
 
+
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
     <link rel="stylesheet" href="./none-public/slide.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
 
@@ -25,22 +26,28 @@
 
 
 
-    <section class="header" id="header">
+    <header class="header" id="header">
 
 
-      
+         <div class="mobile-nav-btn" id="m-n-btn-open" >
+            <i onclick="openNav()" class='bx bx-slider'></i>
+         </div>
+
+         <div class="mobile-nav-btn" id="m-n-btn-close">
+            <i onclick="closeNav()" class='bx bxs-chevrons-right'></i>
+         </div>
 
 
         <div class="navbar" id="navbar">
 
            
-                <ul>
+                <ul class="texts">
 
             <a id="ac" href="#header">Home</a>
             <a href="#about">About</a>
             <!-- <a href="#contact">Contact</a> -->
-            <a href="#skills">skills</a>
-            <a href="./none-public/projects.html">Projects</a>
+            <a href="#about">skills</a>
+            <a href="#project">Projects</a>
 
                 </ul>
  
@@ -56,18 +63,21 @@
                 </div>
                   </div>
           
+                 
         </div>
 
+        
+                   
 
-      
-
-    </section>
+    </header>
 
 
     <section class="home" id="home" >
 
+
     
       <div class="headding-name">
+
         <h1>
             <span>hello i'm </span><br>
             Javad
@@ -116,23 +126,24 @@
 
     <section class="about" id="about">
 
+        <div class="subtitle"><p>about me</p></div>
 
 
-        <h1>About Me</h1> 
+        <!-- <h1>About Me</h1>  -->
 
 
          <div class="para-about">  
-            <p>        
-     I enjoy solving problem, My passion for design, <br>
-     paired with my technical skills, <br>
-     allows me to craft websites that are not only <br>
-     functional but also aesthetically <br>
+            <p id="para-1">        
+     I enjoy solving problem, My passion for design, 
+     paired with my technical skills, 
+     allows me to craft websites that are not only 
+     functional but also aesthetically 
             </p>
 
-            <p>iam web designer who is deeply passionate <br>
-               about writing codes, design and arts<br>
-                who loves making creative blockchain solutions<br>
-               and attractive/functional websites.<br>
+            <p id="para-2">iam web designer who is deeply passionate 
+               about writing codes, design and arts
+                who loves making creative blockchain solutions
+               and attractive/functional websites.
             </p>
          </div>
 
@@ -247,20 +258,145 @@
 
 
    <section class="project" id="project" style="text-align: center;">
-    <h1>Projects</h1>
+    <!-- <h1>Projects</h1> -->
 
-    
-
-
-
+    <div class="subtitle"><p>projects</p></div>
+ 
 
 
 
-    
+   <div class="pro-container">
+
+
+
+      <div class="pro">
+
+        <img src="./image/projects/1.png" alt="">
+
+            <div class="animation-content">
+                <h2>
+                    E - commerce
+                </h2> 
+                
+                <p>
+                   it's frontend of a  ecommerce website and its also a responsive website
+                </p>
+
+                <a class="source" href="https://github.com/javaadde/GreenApple.in">source <i class='bx bxl-github'></i></a>
+                 <a href="https://javaadde.github.io/GreenApple.in/" class="demo">demo <i class="fa-solid fa-eye"></i></a>
+            </div>
+
+
+      </div>
 
 
 
 
+      <div class="pro">
+
+        <img src="./image/projects/2.png" alt="">
+        
+        <div class="animation-content">
+            <h2>
+                Calculatore 
+            </h2> 
+            
+            <p>
+               it's a calculatore made by java script 
+               and its responsive
+            </p>
+
+            <a class="source" href="https://github.com/javaadde/Calculator">source <i class='bx bxl-github'></i></a>
+            <a href="https://javaadde.github.io/Calculator/" class="demo">demo <i class="fa-solid fa-eye"></i></a>
+
+        </div>
+
+
+      </div>
+
+
+
+
+      <div class="pro">
+
+    <img src="./image/projects/3.png" alt="">
+        
+    <div class="animation-content">
+        <h2>
+            portfolio 
+        </h2> 
+        
+        <p>
+            its is a portfolio i copied from <br>a youtube channell
+        </p>
+
+        <a class="source" href="https://github.com/javaadde/javad.io">source <i class='bx bxl-github'></i></a>
+        <a href="https://javaadde.github.io/javad.io/"   class="demo">demo <i class="fa-solid fa-eye"></i></a>
+
+    </div>
+
+
+      </div>
+
+
+
+
+     <div class="pro no-display">
+
+    <img src="./image/projects/4.png" alt="">
+        
+    <div class="animation-content">
+        <h2>
+            e-commerce
+        </h2> 
+        
+        <p>
+           it's a responsive e-commerce website 
+        </p>
+
+        <a class="source" href="https://github.com/javaadde/greenapplestore">source <i class='bx bxl-github'></i></a>
+        <a href="https://javaadde.github.io/greenapplestore/" class="demo">demo <i class="fa-solid fa-eye"></i></a>
+
+    </div>
+
+
+     </div>
+
+
+
+
+
+     <div class="pro no-display">
+
+    <img src="" alt="">
+        
+    <div class="animation-content">
+        <h2>
+            loading 
+        </h2> 
+        
+        <p>
+            coming soon as possible
+        </p>
+
+        <a class="source" href="">source <i class='bx bxl-github'></i></a>
+        <a href="" class="demo">demo <i class="fa-solid fa-eye"></i></a>
+
+    </div>
+
+
+    </div>
+
+
+
+
+
+   </div>
+
+
+   <div class="more-link" id="show-btn">
+    <i onclick="showMore()">Show More</i>
+   </div>
 
 
 
@@ -284,15 +420,21 @@
 
 
 
+    <div class="copy-right">
+        <p>
+            made by my self 😊<br>
+            <br>    
+        </p>
+
+        <p><i>☻</i> thanks for visiting <i>☻</i></p>
+    </div>
+
+
    </section>
 
 
 
    <script src="script.js"></script>
-
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
-   <script src="./none-public/slide.js"></script>
-
    
 </body>
 </html>
