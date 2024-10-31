@@ -29,10 +29,28 @@ function showMore() {
       element.style.display = "flex";
     });
 
-    document.getElementById("show-btn").style.display="none"
+    document.getElementById("show-btn").style.display="none";
 
   }
   
+
+
+
+//
+// ==> read more button
+//
+
+
+ function readMore(){
+    document.getElementById("readMore-btn").style.display="none";
+    document.getElementById("para-2").style.display="flex";
+    document.getElementById("pa").style.height="50vh";
+
+ }
+
+
+
+
 
 
 
@@ -58,12 +76,14 @@ function theme(){
       root.style.setProperty('--ooo','#fff');
       root.style.setProperty('--body','#717b7a');
       root.style.setProperty('--back','#b9dfda');
+      root.style.setProperty('--back-img','url("./image/red.jpg")');
       
     } else {
       root.style.setProperty('--last', 'rgb(63, 250, 110'); 
       root.style.setProperty('--ooo','#000');
       root.style.setProperty('--body','#131212');
       root.style.setProperty('--back','#3e3e44');
+      root.style.setProperty('--back-img','url("./image/headding.webp")');
     }
   
 

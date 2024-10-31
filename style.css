@@ -47,7 +47,10 @@ h1{
         --ooo:#000;
         --fff: #9ecee0;
 
-     --create:#5464ce;
+     --create:#e30c37f7;
+
+
+     --back-img:url("./image/headding.webp");
 }
 
 
@@ -67,6 +70,9 @@ h1{
 }
 
 
+.para-about #para-2{
+    display: none;
+}
 
 
 
@@ -75,6 +81,7 @@ h1{
 /*   section-       */
 /*      padding     */
 /*                  */
+
 
 .about{
     padding-top: 200px;
@@ -85,7 +92,6 @@ h1{
 .project{
     padding-top: 400px;
 }
-
 
 
 
@@ -195,10 +201,16 @@ h1{
 
 .headding-name h1 span{
     color: var(--fff);
+   background-color: transparent;
 }
 
 .headding-name h1{
     font-size: 90px;
+    background-image: var(--back-img);
+    -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+
+     /* text-shadow:0 0 20px var(--last); */
 }
 
 .paragraph{
@@ -324,7 +336,6 @@ h1{
 
 
 
-
 .about .subtitle{
     width: 170px;
     margin-bottom: -250px;
@@ -345,6 +356,22 @@ h1{
     color: var(--fff);
 }
 
+.para-about i{
+  margin-left: 80%;
+  color: var(--last);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#readMore-btn{
+    display: flex;
+}
+
+#para-2{
+    margin-top: 0px;
+}
+
+
 
 
 /*              */
@@ -362,6 +389,7 @@ h1{
     margin-left: 25%;
     display: flex;
     flex-wrap: wrap;
+
 }
 .skill-container .skill{
     width:100px;
@@ -626,7 +654,22 @@ h1{
 }
 
 
+.cv{
+   position: fixed;
+   margin-top: 159%;
+   margin-left: 250px;
+}
 
+.cv a{
+    font-size: 23px;
+    text-decoration: none;
+    background-color: var(--back);
+    padding: 10px 10px 10px 10px;
+    color: var(--last);
+
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
 
 
 
@@ -726,7 +769,7 @@ h1{
 
 #navbar{
     width: 80%;
-    height: 80vh;
+    height: 50vh;
     margin-left: 20%;
     display: flex;
     flex-wrap: wrap;
@@ -756,7 +799,8 @@ h1{
 
 
 .headding-name h1{
-    font-size: 50px
+    font-size: 50px;
+   
 }
 .headding-name{
     margin-left: 30px;
@@ -823,9 +867,16 @@ h1{
 }
 
 
+
+
+
 /*              */
-/*     about    */
+/*     about                                            <===                                                                   */
 /*              */
+
+
+
+
 
 .about{
     padding-top: 200px;
@@ -836,9 +887,6 @@ h1{
     margin-bottom: -180px;
 }
 
-.para-about #para-2{
-    display: none;
-}
 
 .para-about{
     width: 52%;
@@ -848,6 +896,10 @@ h1{
 
 .para-about p{
     font-size: 18px;
+}
+
+#readMore-btn{
+    font-size: 8px;
 }
 
 
@@ -905,7 +957,12 @@ h1{
     height: 280px;
 }
 
-
+.animation-content .demo{
+    margin-left: 140px;
+}
+.animation-content .source{
+    margin-left: 20px;
+}
 
 
 /*                */
@@ -928,6 +985,20 @@ h1{
 .r-top a{
     margin-left: 80%;
 }
+
+
+
+
+/*                */
+/*    cv - btn     */
+/*                */
+
+
+.cv{
+    display: none;
+}
+
+
 
 
 
