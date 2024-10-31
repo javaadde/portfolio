@@ -83,7 +83,7 @@ function theme(){
       root.style.setProperty('--ooo','#000');
       root.style.setProperty('--body','#131212');
       root.style.setProperty('--back','#3e3e44');
-      root.style.setProperty('--back-img','url("./image/headding.webp")');
+      root.style.setProperty('--back-img','url("./image/c.png")');
     }
   
 

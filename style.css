@@ -50,7 +50,7 @@ h1{
      --create:#e30c37f7;
 
 
-     --back-img:url("./image/headding.webp");
+     --back-img:url("./image/c.png");
 }
 
 
@@ -208,9 +208,8 @@ h1{
     font-size: 90px;
     background-image: var(--back-img);
     -webkit-text-fill-color: transparent;
-     -webkit-background-clip: text;
+     background-clip: text;
 
-     /* text-shadow:0 0 20px var(--last); */
 }
 
 .paragraph{
@@ -899,7 +898,9 @@ h1{
 }
 
 #readMore-btn{
-    font-size: 8px;
+    font-size: 12px;
+    width: 150px;
+    margin-left: 50%;
 }
 
 
@@ -908,13 +909,22 @@ h1{
 /*     skill    */
 /*     tool     */
 /*              */
+.skill-tool{
+    margin-top: 100px;
+}
+
 
 .skill-tool span{
     font-size: 18px;
 }
 
+#span2{
+    margin-left: 8px;
+}
+
 .skill-container{
     width: 70%;
+    height: 20vh;
     margin-left: 20%;
 
     margin-top: -50px;
@@ -924,7 +934,7 @@ h1{
     width: 60px;
     height: 45px;
 
-    margin-left: 15px;
+    margin-left: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
@@ -954,11 +964,11 @@ h1{
 .pro{
     margin-left: -8px;
     width: 250pxp;
-    height: 280px;
+    height: 260px;
 }
 
 .animation-content .demo{
-    margin-left: 140px;
+    margin-left: 125px;
 }
 .animation-content .source{
     margin-left: 20px;
@@ -1003,3 +1013,10 @@ h1{
 
 
 }
+
+
+
+
+
+
+
