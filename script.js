@@ -5,13 +5,13 @@
 //
 
 function openNav(){
-    document.getElementById("navbar").style.display="flex";
+    document.getElementById("navbar").style.left="0";
     document.getElementById("m-n-btn-open").style.display="none";
     document.getElementById("m-n-btn-close").style.display="flex";
 }
 
 function closeNav(){
-    document.getElementById("navbar").style.display="none";
+    document.getElementById("navbar").style.left="-100%";
     document.getElementById("m-n-btn-open").style.display="flex";
     document.getElementById("m-n-btn-close").style.display="none";
 }
