@@ -68,7 +68,9 @@ h1{
 .no-display{
     display: none;
 }
-
+.no-display img{
+    height: 80%;
+}
 
 .para-about #para-2{
     display: none;
@@ -541,6 +543,9 @@ h1{
 
     font-size: 18px;
     color: var(--last);
+
+    padding-left: 8px;
+
 }
 
 .animation-content .demo{
@@ -549,13 +554,14 @@ h1{
     margin-top: -24px;
     color: var(--last);
 
+    padding-left: 10px;
     font-size: 18px;
 }
 
 .animation-content a{
     text-decoration: none;
-    padding-left: 10px;
-    padding-right: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .animation-content .source,
@@ -615,6 +621,7 @@ h1{
 
    border-top-right-radius: 10px;
    border-bottom-left-radius: 10px;
+
 }
 .r-top a i{
     color: var(--last);
@@ -768,7 +775,7 @@ h1{
 
 #navbar{
     width: 80%;
-    height: 50vh;
+    height: 60vh;
     margin-top: 2px;
     display: flex;
     flex-wrap: wrap;
@@ -986,7 +993,11 @@ h1{
 /*                */
 /*    projects    */
 /*                */
-
+.pro-container{
+    
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 .project .subtitle{
@@ -994,19 +1005,27 @@ h1{
 }
 
 .pro{
-    margin-left: -8px;
     width: 230px;
     height: 230px;
 
     background: var(--back);
     border-radius: 30px;
+
+    margin-left: auto;
+    margin-right: auto;
 }
 
+
+
 .animation-content .demo{
-    margin-left: 125px;
+
+  margin-left: 120px;
+
+
 }
 .animation-content .source{
-    margin-left: 20px;
+    margin-left:20px;
+    margin-top: 0;
 }
 
 .pro .animation-content{
@@ -1063,7 +1082,6 @@ h1{
 .r-top a i{
     font-size: 23px;
 }
-
 
 
 
