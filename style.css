@@ -93,6 +93,7 @@ h1{
 }
 .project{
     padding-top: 400px;
+    height: auto;
 }
 
 
@@ -535,7 +536,7 @@ h1{
 .pro .animation-content p{
     color: var(--fff);
 }
-.animation-content .source{
+.pro .animation-content .source{
     display: flex;
     margin-right: 0px;
     margin-left: 28px;
@@ -564,9 +565,8 @@ h1{
     border-bottom-left-radius: 10px;
 }
 
-.animation-content .source,
-.animation-content .demo{
-
+ .source,
+ .demo{
     width:90px;
     background-color: var(--back);
 }
@@ -576,6 +576,77 @@ h1{
     padding-left: 2px;
 }
 
+
+
+
+
+/* project cloned */
+
+
+.project-cloned{
+    height: 40vh;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+.project-cloned .subtitle{
+    margin-left: 9%;
+}
+
+.project-cloned .subtitle::after{
+    display: none;
+}
+
+.clone-pro{
+   
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 50px;
+
+    background: var(--back);
+    border-radius: 10px;
+}
+
+.clone-pro h2{
+   color: var(--last);
+    padding: 20px;
+   margin-top: 0px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+}
+
+.clone-pro p{
+    height: 85px;
+    width: 90%;
+    margin: auto;
+    color: antiquewhite;
+}
+
+
+
+.demo-clone,
+.source-clone{
+  
+    background-color:var(--ooo);
+    color: var(--fff);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+.project-cloned .topheadd{
+    color: var(--last);
+    margin-left: 9%;
+    transform:rotate(-90deg);
+   font-size: 18px;
+}
 
 
 /*                 */
@@ -675,6 +746,7 @@ h1{
 
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
+    display: none;
 }
 
 
@@ -1055,6 +1127,24 @@ h1{
 .pro img{
     display: none;
 }
+
+
+
+/* cloned pro */
+
+.clone-pro{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-cloned .topheadd{
+transform: rotate(0);
+margin: auto;
+}
+.project-cloned{
+    width: 60%;
+}
+
 /*                */
 /*  show more     */
 /*                */
