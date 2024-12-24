@@ -131,7 +131,6 @@ body{
     background: var(--secondery);
     margin-left: 93%;
     position:relative;
-
     border-radius: 2rem;
 }
 
@@ -141,11 +140,11 @@ body{
     margin-top: .3rem;
     margin-left: 0.4rem
 }
+
 #socialBar ul{
    position:absolute ;
    margin-top: 0.5rem;
 }
-
 
 
 #socialBar ul li i{
@@ -154,12 +153,13 @@ body{
   border-radius: 2rem;
   transition: 0.5s ease-in-out;
   border: 0.2rem solid var(--secondery);
+  color: #7532b4;
 }
 
 #socialBar ul li i:hover{
     border: 0.2rem solid #7532b4;
- background-color: var(--primery);
- color: #a80df5;
+    background-color: var(--primery);
+    color: #a80df5;
 }
 
 
