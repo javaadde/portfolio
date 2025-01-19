@@ -24,7 +24,7 @@
     --teritiory:#a80df5;
     --text-color:#e6ceee;
     --border-color:#e3d6df;
-    --border-color-2:#af05d5;
+    --border-color-2:#8d6d94;
 
 
 
@@ -299,6 +299,19 @@ section{
     .GetTouch .buttons a{
         margin-left: 1rem;
     }
+
+    
+   
+}
+
+
+@media (max-width:912px) {
+
+    .GetTouch .button #Btn-get{
+        visibility: hidden;
+    }
+  
+    
 }
 
 
@@ -306,23 +319,22 @@ section{
 
 
     .GetTouch{
-        margin-left: 2rem;
+        margin-left: 10%;
         width: 12rem;
-        height: 16rem;
+        height: 17rem;
     }
 
     .GetTouch h1{
-        margin-left: 0.5rem;
+        margin-left: 0.4rem;
+        text-align: center;
     }
- 
-    .GetTouch .buttons a {
-     display: flex ;
-     margin-top: .5rem;
-     width: 8rem;
+
+  
+    .GetTouch .button #Btn-get{
+        visibility: hidden;
     }
-    .GetTouch .buttons{
-        margin-top: 1rem;
-    }
+  
+
 }
 
 
@@ -408,6 +420,10 @@ section{
 
 }
 
+
+
+
+
 .top-headding{
     height: 20%;
     width: 100%;
@@ -424,7 +440,7 @@ section{
 .body-content{
     width: 100%;
     height: 60%;
-    background-color: #322d32;
+    background-color:var(--primery);
 }
 
 .buttons{
@@ -456,4 +472,32 @@ section{
 }
 
 
+.body-1{
+    background-image: url(image/projects/1.png);
+    background-size: cover;
+}
+
+.body-2{
+    background-image: url(image/projects/2.png);
+    background-size: cover;
+}
+
+
+.body-3{
+    background-image: url(image/projects/6.png);
+    background-size: cover;
+}
+
+.body-4{
+    background-image: url(image/projects/4.png);
+    background-size: cover;
+}
+
+@media (max-width:768px) {
+
+    .pro-container{
+        margin-left: 30%;
+    }
+    
+}
 
