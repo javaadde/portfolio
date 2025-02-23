@@ -128,8 +128,8 @@ section{
 }
 
 #navbar ul li a:hover{
-   background: #c28df1;
-   color: #fff;
+   background: #52118c;
+   color: #210e2a;
 }
 
 
@@ -168,186 +168,62 @@ section{
 /*    ======================================================19.5=========================     */
 
 
-#socialBar{
-    width: 4rem;
-    height: 19.5rem;
-    background: transparent;
-    margin-left: 93%;
-    position:relative;
-    border-radius: 12px;
-    margin-top: 2rem;
-    /* border: 1px solid var(--border-color); */
-}
-
-#socialBar ul li{
-    text-decoration: none;
-    list-style: none;
-    margin-top: .5rem;
-    margin-left: 0.;
-    width: 3rem;
-    height: 3rem;    
-}
-
-#socialBar ul{
-   position:absolute ;
-   margin-top: 0.5rem;
-}
-
-
-#socialBar ul li i{
-  font-size: 2rem;
-  padding: 0.5rem;
-  border-radius: 2px;
-  background-color: #403640;
-  /* border: 1px solid var(--border-color); */
-  color:var(--primery);
-  margin-top: 5px;
-  box-shadow: var(--shadow-1);
-  background: var(--border-gradient-onyx);
-  color:var(--text-color);
-
-/* 
-  width: 1rem;
-    height: 1rem; */
-    /* background: #222022; */
-}
-
-
-
-
-
-#socialBar ul li i:hover{
-   
-    color: #ac64cf;
-}
-
-
-@media (max-width:786px) {
-
-  #socialBar{
-    margin-left: 70%;
-  }
- 
-  #home{
-    width: auto;
-  }
-
-
-}
-
-
-
 
 
 /*    =================================================================================     */
 /*    --------------------         GEt in touch                    ---------------------     */
 /*    ======================================================19.5=========================     */
 
+.get-tuch{
+    margin-left: 250px;
+    margin-top: 100px;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+   border: 2px solid  #7c5e7b;
 
-.GetTouch{
-    width: 30%;
-    height: 15rem;
-    background: var(--bg-gradient-jet);
+    background-color:var(--secondery);
     position: absolute;
-    margin-top: -13rem;
-    margin-left: 12rem;
-    align-items: center;
-    justify-content: center;
-    /* border: 0.2rem solid #7532b4; */
-    border-radius: 0.5rem;
-    color: var(--text-color);
 }
 
-.GetTouch h3{
-    margin-top: 1.5rem;
-    margin-left: 1.2rem;
+.get-tuch #top,#bottom{
+ margin-top: 50px;
 }
 
-.GetTouch h1{
-    margin-left: 4rem
-}
-
-.GetTouch .button{
-    margin-top: 4rem;
-}
-
-.GetTouch .button a{
+.get-tuch #top a,#bottom a{
     text-decoration: none;
-    margin-left: 2.5rem;
-    padding: 0.8rem;
-    background: var(--secondery);
-    border: 0.2rem solid var(--primery);
-    border-radius: 0.5rem;
     color: var(--text-color);
-    transition: 0.4s ease-in-out;
+}
+
+.span-button{
+    padding: 20px;
+    background-color: #453d4c;
+
+    border: 2px solid var(--border-color-2) ;
+}
+
+.span-button:hover{
+    border-color: var(--border-color-1);
+    background-color: var(--secondery);
 }
 
 
 
-.GetTouch .button a:hover{
-    border: 0.2rem solid var(--primery);
-    background: #bb7ff1;
-    color: #fff;
 
-     span{
-        color: #fff;
-    }
-
-}
-
-@media (max-width:1024px) {
-    .GetTouch .buttons a{
-        margin-left: 1rem;
-    }
-
-    
-   
-}
-
-
-@media (max-width:912px) {
-
-    .GetTouch .button #Btn-get{
-        visibility: hidden;
-    }
-  
-    
-}
 
 
 @media (max-width:768px) {
+     .get-tuch {
+       margin-left: 17%;
+        width: 250px;
+        display: block;
+        position: absolute;
+     }   
+    
 
-
-    .GetTouch{
-        margin-left: 10%;
-        width: 12rem;
-        height: 17rem;
+     
     }
 
-    .GetTouch h1{
-        margin-left: 0.4rem;
-        text-align: center;
-    }
-
-  
-    .GetTouch .button #Btn-get{
-        visibility: hidden;
-    }
-  
-
-}
-
-
-
-
-.head{
-    color: var(--text-color);
-    margin-top: 15rem;
-    padding-top: 2rem;
-}
-.head-cont{
-    text-align: center;
-}
 
 
 
@@ -358,7 +234,14 @@ section{
 /*    --------------------        about me                     ---------------------     */
 /*    ======================================================19.5=========================     */
 
+.about{
+    height: 40rem;
+}
 
+.head-cont .head{
+    text-align: center;
+    color: var(--text-color);
+}
 
 .about-main{
 
@@ -384,169 +267,16 @@ section{
     
 }
 
-
-
-
 /*    =================================================================================     */
 /*    --------------------        my      skill                     ---------------------     */
 /*    ======================================================19.5=========================     */
 
 
-.skills{
-  height: 10rem;
-}
 
-.skill-icons-mob{
-    width: 20%;
-    height: 100%;
-    /* background: var(--text-color); */
-    margin-left: 40%;
-    margin-top: 5rem;
-    display: none;
-}
-
-
-.skill-icons-pc{
-    width: 30%;
-    height: 100%;
-    /* background: var(--text-color); */
-    margin-left: 37%;
-    margin-top: 5rem;
-    /* display: flex; */
-}
-
-@media (max-width:768px) {
-    .skill-icons-mob{
-        display: flex;
-        width: 40%;
-        margin-left: 25%;
-    }
-    .skill-icons-pc{
-        display: none;
-    }
-}
 
 /*    =================================================================================     */
 /*    --------------------        my projeccts                     ---------------------     */
 /*    ======================================================19.5=========================     */
-
-
-
-.projects{
-    height: 35rem;
-}
-
-
-
-.pro-container{
-
-    width: 60%;
-    margin-left: 20%;
-    margin-top: 6rem;
-
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-}
-
-.pro{
-
-    width: 10rem;
-    height: 11rem;
-
-    background:var(--secondery);
-    border: 1px solid var(--border-color-2);
-    border-radius: 1rem;
-
-}
-
-
-
-
-
-.top-headding{
-    height: 20%;
-    width: 100%;
-    background-color: #453d4c;
-    text-align: center;
-    border-top-right-radius: 1rem;
-    border-top-left-radius: 1rem;
-
-    h2{
-        text-shadow: 0   0  30px #a80df5;
-    }
-}
-
-.body-content{
-    width: 100%;
-    height: 60%;
-    background-color:var(--primery);
-}
-
-.buttons{
-    width: 100%;
-    height: 20%;
-    background-color: #322d32;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    position: relative;
-
-    .left-button{
-        width: 47.5%;
-        height: 100%;
-        background-color: #453d4c;
-        border-bottom-left-radius: 1rem;
-        position: absolute;
-        border: 1px solid var(--border-color-2);
-    }
-
-    .rigth-button{
-        width: 47.5%;
-        height: 100%;
-        background-color: #453d4c;
-        border-bottom-right-radius: 1rem;
-        position: absolute;
-        margin-left: 52.5%;
-        border: 1px solid var(--border-color-2);
-    }
-}
-
-
-.body-1{
-    background-image: url(image/projects/1.png);
-    background-size: cover;
-}
-
-.body-2{
-    background-image: url(image/projects/2.png);
-    background-size: cover;
-}
-
-
-.body-3{
-    background-image: url(image/projects/6.png);
-    background-size: cover;
-}
-
-.body-4{
-    background-image: url(image/projects/4.png);
-    background-size: cover;
-}
-
-@media (max-width:768px) {
-
-    .pro-container{
-        margin-left: 30%;
-    }
-    .projects{
-        height: 55rem;
-    }
-    .pro-hide{
-        display: none;
-    }
-}
-
-
 
 
 
@@ -559,27 +289,47 @@ section{
 .copy-rigth{
 
     height: 16rem;
+    background: #2e2931;
+
+}
+
+
+.made span img{
+    background-color: #52118c;
 }
 
 
 .bottom{
-    width: 100%;
-    height: 100%;
-   
-    background: #2e2931;
+    width: auto;
+    height: auto;
+    display: flex;
 }
 
 
-
-.line{
-    border-top: 1px solid #7c5e7b;
-    -webkit-box-flex: 1;
-    flex-grow: 1;
-}   
 
 @media (max-width:768px) {
     .made{
-        margin-left: 60%;
+        margin-left: 50%;
+        display: flex;
+    
     }
+
+
+
+    /* ============================= */
+
+    .round-for-photo{
+        display: none;
+    }
+
+
+
+    /* ============================= */
 }
+
+
+
+
+
+
 
