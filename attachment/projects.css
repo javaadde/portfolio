@@ -102,3 +102,9 @@ body{
     flex-wrap: wrap;
 }
 
+
+@media (max-width:786px) {
+    .container{
+        margin-left: 16%;
+    }
+}
