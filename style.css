@@ -191,7 +191,7 @@ section{
 
 @media (max-width:786px) {
     .social-bar{
-        margin-left: 25%;
+        margin-left: 20%;
         margin-top: 90%;
     }   
 }
@@ -277,9 +277,9 @@ section{
 
     width: 50%;
     height: 25rem;
-    background-color: #453d4c;
+    background-color: #2e2931;
     margin-left: 25%;
-    margin-top: 6rem;
+    margin-top: 3rem;
     position: relative;
 }
 
@@ -293,8 +293,7 @@ section{
     height: 10rem;
     margin-left:2rem;
     margin-top: 2rem;
-    position: absolute;
-    
+    position: absolute;    
 }
 
 /*    =================================================================================     */
