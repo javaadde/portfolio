@@ -28,6 +28,7 @@
     --outline:#988db4;
     --link-text:#a841fc;
     --red-vio:#7014b1;
+    --pro-back:#3e3151ba;
 }
 
 
@@ -107,7 +108,7 @@ body{
 
 
 /* ================ */
-/*  get touch  btn*/
+/*  get touch  btn  */
 /* ================ */
 
 .get-touch{
@@ -118,7 +119,7 @@ body{
 
  
 
-.get-touch a{
+.scroll-btn a{
     color: var(--text);
     text-decoration: none;
     background: var(--logo);
@@ -130,7 +131,7 @@ body{
     border: solid 1px var(--outline);
 }
 
-.get-touch a:hover{
+.scroll-btn a:hover{
     background: var(--link-text);
     color: var(--text);
     transition: 0.5s ease-in-out;
@@ -149,7 +150,7 @@ body{
 
 .resume-btn a{
     color: var(--link-text);
-   
+   font-weight: 900;
 }
 
 /* =============== */
@@ -188,7 +189,7 @@ body{
 /* ======================================== */
 /* ======================================= */
 
-/*                MEDIA WIDTH              */
+/*     MEDIA WIDTH   OF MAIN SECTION       */
 
 /* ======================================== */
 /* ========================================= */
@@ -207,12 +208,12 @@ body{
 
 
 .get-touch{
-    margin-top: 110%;
+    margin-top: 102%;
 }
 .texts{
     margin-top: 45%;
     h1{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 }
 .resume-btn{
@@ -232,6 +233,12 @@ body{
 
 }
 
+
+@media (min-width: 600px) and (max-width: 1024px) {
+   .get-touch{
+    margin-top: 40%;
+   }
+}
 
 
 
@@ -309,17 +316,16 @@ body{
     position: absolute;
 }
 .social-bar span a{
-   padding: 15px;
+   padding: 10px;
    background-color: var(--logo);
    border-radius: 12px;
-   /* border: solid 1px var(--outline); */
    cursor: pointer;
 }
 
 .social-bar span a{
     color: var(--text);
     text-decoration: none;
-    font-size: 24px;
+    font-size: 28px;
     text-align: center;
     margin-left: 10px;
 }
@@ -334,7 +340,7 @@ body{
 /* ======================================== */
 /* ======================================= */
 
-/*                MEDIA WIDTH              */
+/*      MEDIA WIDTH   OF SECTION ONE        */
 
 /* ======================================== */
 /* ========================================= */
@@ -352,15 +358,165 @@ body{
 }
 
 
-
+    .pera{
+        width: 65%;
+    }
 
     .pera-1{
         margin-top: 7%;
     }
-
-    .social-bar{
-        margin-top: 35%;
+    .pera-3{
+        margin-top: 9%;
     }
 
+    .social-bar{
+        margin-top: 32%;
+        margin-left: 18%;
+    }
+
+}
+
+
+
+/* ================================================================================================================  */
+/* ================================================================================================================  */
+/*                                                                                                                   */
+/*                                      SECTION    two                                                               /* 
+/*                 0.2 ==>           [   Devopment     ]                                                             */
+/*                                                                                                                   */
+/* ================================================================================================================= */
+/* ================================================================================================================= */
+
+
+.two{                
+    background-image: url('./image/background/drop/6.png'),
+    url('./image/background/drop/8.png');
+    background-repeat: no-repeat;
+    background-position: left calc(100% + 10px) top calc(100% - 100px) ,left calc(30% - 240px) bottom;
+    /* background-position: right; */
+    background-size: 300px 300px, 180px 180px;
+}
+
+
+
+/* ========================== *\
+|*     pro                    *|
+\* ========================== */
+
+
+.pro-container{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.pro{
+    width: 200px;
+    height: 270px;
+    background: var(--pro-back);
+    border-radius: 12px;
+    border: solid 1px var(--outline);
+
+
+    h3{
+        margin-left: 10%;
+        color: var(--text);
+    }
+
+    p{
+        margin-left: 10%;
+        color: var(--link-text);
+        margin-top: 10%;
+        width: 80%;
+    }
+    span{
+        margin-left: 10%;
+        color: var(--red-vio);
+        margin-top: 11%;
+        display: block;
+    }
+}
+
+.head-pro{
+    display: inline-block;
+    margin-top: 10%;
+}
+
+.pro span a{
+    color: var(--text);
+    text-decoration: none;
+    background: var(--logo);
+    padding: 8px;
+    padding-right: 16px;
+    padding-left: 16px;
+    font-size: 12px;
+    border-radius: 12px;
+    border: solid 1px var(--outline);
+}
+
+.pro span a:hover{
+    background: var(--red-vio);
+    color: var(--text);
+    transition: 0.5s ease-in-out;
+}
+
+/* ============ */
+
+.see-more-theme a{
+    padding: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    background: var(--logo);
+    border-radius: 12px;
+    color:var(--text);
+     text-decoration: none;
+     font-size: 12px;
+    }
+
+    .see-more-theme a:hover{
+        background: var(--link-text);
+        color: var(--text);
+        transition: 0.5s ease-in-out;
+    }
+
+/* =========== */
+
+
+.see-btn{
+    margin-left: 65%;
+    margin-top: 7%;
+    position: absolute;
+}
+
+
+
+
+/* ======================================== */
+/* ======================================= */
+
+/*     MEDIA WIDTH    OF SECTION TWO          */
+
+/* ======================================== */
+/* ========================================= */
+
+
+@media (max-width:768px) { 
+
+    .two{
+        height: 130vh;
+    }
+
+    .pro-container{
+        margin-top: 25%;
+    }
+
+    .see-btn{
+        margin-left: 45%;
+        margin-top: 10%;
+    }
 }
 
