@@ -337,13 +337,13 @@ body{
 
 
 
-/* ======================================== */
-/* ======================================= */
+/* =======================================  */
+/* =======================================  */
 
 /*      MEDIA WIDTH   OF SECTION ONE        */
 
 /* ======================================== */
-/* ========================================= */
+/* ======================================== */
 
 
 
@@ -507,7 +507,7 @@ body{
 @media (max-width:768px) { 
 
     .two{
-        height: 130vh;
+        height: 145vh;
     }
 
     .pro-container{
@@ -515,8 +515,170 @@ body{
     }
 
     .see-btn{
-        margin-left: 45%;
+        margin-left: 33%;
         margin-top: 10%;
     }
 }
+
+
+
+
+
+
+
+
+/* ================================================================================================================  */
+/* ================================================================================================================  */
+/*                                                                                                                   */
+/*                                      SECTION     three                                                            /* 
+/*                 0.3 ==>    n          [  designs   ]                                                              */
+/*                                                                                                                   */
+/* ================================================================================================================= */
+/* ================================================================================================================= */
+
+
+
+
+
+
+.design-container{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 8%;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.design{
+    width: 320px;
+    height: 222px;
+    border-radius: 12px;
+    background-size: 100%;
+    background-position: cover;
+    background-color: var(--body);
+}
+
+
+
+.d-1{
+    background-image: url('./image/background/illustrations/PeENGUIN.png');
+}
+
+.d-2{
+    background-image: url('./image/background/illustrations/Untitled\ design\ \(14\).png');
+}
+
+
+.design span a{
+    color: var(--body);
+    text-decoration: none;
+    background: var(--link-text);
+    padding: 6px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 22px;
+    border-radius: 12px;
+    display: inline-block;
+    margin-left: 80%;
+    margin-top: 50%;
+    border: solid 2px var(--body);
+}
+
+.design span a:hover{
+    color: var(--text);
+    border-color: var(--text);
+}
+
+
+/* ======================================== */
+/* ======================================= */
+
+/*     MEDIA WIDTH    OF SECTION TWO          */
+
+/* ======================================== */
+/* ========================================= */
+
+
+@media (max-width:768px) { 
+
+    .three{
+        height: 90vh;
+    }
+
+    .design-container{
+        margin-top: 25%;
+    }
+
+    .design{
+        width: 200px;
+        height: 150px;
+    }
+
+    .design span a{
+        font-size: 18px;
+        margin-left: 75%;
+    }
+
+}
+
+
+@media only screen 
+  and (device-width: 375px) 
+  and (device-height: 667px) 
+  and (-webkit-device-pixel-ratio: 2) {
+    .three{
+        height: 100vh;
+        h4{
+            margin-top: 70%;
+        }
+    }
+}
+
+@media only screen 
+  and (device-width: 414px) 
+  and (device-height: 736px) 
+  and (-webkit-device-pixel-ratio: 3) {
+    .three{
+        height: 100vh;
+        h4{
+            margin-top: 70%;
+        }
+    }
+}
+
+
+
+
+/* ================================================================================================================= */
+/* ================================================================================================================= */
+/*                                         LAST SECTION                                                                          */
+/* ================================================================================================================= */
+/* ================================================================================================================= */
+
+
+.last{
+    height: 20vh;
+    background: #151216;
+}
+
+.last span img{
+    width: 22px;
+    height: 22px;
+}
+
+.last span{
+    margin-left: 45%;
+    margin-top: 2%;
+    display: inline-block;
+    color: var(--text);
+}
+
+@media (max-width:768px) { 
+   .last span{
+    margin-left: 40%;
+   }
+}
+
 
