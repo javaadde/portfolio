@@ -649,6 +649,27 @@ body{
 }
 
 
+@media (max-width: 375px) and (max-height: 740px) {
+    .three{
+        height: 100vh;
+        h4{
+            margin-top: 70%;
+        }
+    }
+}
+
+
+
+@media (max-width: 360px) and (max-height: 720px) {
+    .three{
+        height: 100vh;
+        h4{
+            margin-top: 70%;
+        }
+    }
+}
+
+
 
 
 /* ================================================================================================================= */
