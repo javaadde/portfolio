@@ -56,8 +56,8 @@ body{
 
 
 #main{                
-    background-image: url("./image/background/drop/3.png"),
-    url("./image/background/drop/4.png");
+    background-image: url('./image/background/drop/3.png'),
+    url('./image/background/drop/4.png');
     background-repeat: no-repeat;
     background-position: right calc(10% + 80px) top calc(100% - 400px) ,left bottom;
     /* background-position: right; */
@@ -249,8 +249,8 @@ body{
 
 
 .one{                
-    background-image: url("./image/background/drop/1.png"),
-    url("./image/background/drop/2.png");
+    background-image: url('./image/background/drop/1.png'),
+    url('./image/background/drop/2.png');
     background-repeat: no-repeat;
     background-position: left calc(100% - 80px) top calc(100% - 100px) ,left calc(10% - 240px) bottom;
     /* background-position: right; */
