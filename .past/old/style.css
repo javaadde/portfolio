@@ -1,0 +1,364 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+    font-family: "Space Grotesk", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    scroll-behavior: smooth;
+
+}
+
+
+:root{
+
+
+    --primery:#222022;
+    --secondery:#322d32;
+    --teritiory:#a80df5;
+    --text-color:#e6ceee;
+    --border-color:#e3d6df;
+    --border-color-2:#8d6d94;
+
+
+
+
+
+
+
+    --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
+    --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
+
+
+
+
+
+
+
+    --border-gradient-onyx: linear-gradient(
+        to bottom right, 
+        hsl(0, 2%, 21%) 0%, 
+        hsla(0, 2%, 9%, 0) 50%
+      );
+
+
+
+      --bg-gradient-jet: linear-gradient(
+        to bottom right, 
+        hsla(303, 11%, 36%, 0.251) 0%, 
+        hsla(319, 9%, 34%, 0) 100%
+      ), hsl(312, 5%, 21%);
+}
+
+
+body{
+    background: var(--primery);
+}
+
+
+section{
+    width: auto;
+    height: 400px;
+}
+
+.about{
+    width: auto;
+    height: 30rem;
+}
+
+
+/*    =================================================================================     */
+/*    --------------------          ---------------------     */
+/*    =================================================================================     */
+
+
+
+/*    =================================================================================     */
+/*    --------------------                navbar                  ---------------------     */
+/*    =================================================================================     */
+
+
+#navbar{
+    width: 90%;
+    height: 4rem;
+    background: var(--secondery);
+    margin-top: 0.6rem;
+    margin-left: 5%;
+    position: relative;
+
+    border-radius: 4px;
+
+    /* position: fixed; */
+    z-index: 10;
+    /* border: 1px solid var(--border-color); */
+}
+
+#navbar ul{
+    position: absolute;
+    margin-left: 30%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    color: var(--primery);
+}
+
+
+#navbar ul li {
+    padding: 1.1rem;
+    padding-left: 1rem;
+    display: flex;
+    font-size:1rem;
+}
+
+
+
+#navbar ul li a{
+  text-decoration: none;
+  color: #984bf0;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+
+  transition: 0.3s ease-in-out;
+}
+
+#navbar ul li a:hover{
+   background: #984bf0;
+   color:var(--secondery);
+}
+
+
+@media (max-width:786px) {
+
+    #navbar{
+        width: 35%;
+    }
+
+    #navbar ul{
+        display: none;
+    }
+    
+}
+
+
+
+
+
+/* logo */
+
+
+.logo img {
+    width: 3rem;
+    position: absolute;
+    margin-left: 3rem;
+    margin-top: 0.43rem;
+    
+    border-radius: 2px;
+}
+
+
+
+/*    =================================================================================     */
+/*    --------------------          social bar                    ---------------------     */
+/*    ======================================================19.5=========================     */
+
+
+.social-bar{
+    margin-left: 60%;
+    margin-top: 15%;
+    position: absolute;
+}
+
+.social-bar ul a{
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 28px;
+    background-color: #322d32;
+    border-radius: 2px;
+    color: #882ef0;
+}
+
+.social-bar ul a:hover{
+     background-color: #882ef0;
+        color: #322d32;
+}
+
+
+@media (max-width:786px) {
+    .social-bar{
+        margin-left: 15%;
+        margin-top: 90%;
+    }   
+}
+
+
+
+
+/*    =================================================================================     */
+/*    --------------------         GEt in touch                    ---------------------     */
+/*    ======================================================19.5=========================     */
+
+.get-tuch{
+    margin-left: 250px;
+    margin-top: 100px;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    border-radius: 2px;
+
+    background-color:var(--secondery);
+    position: absolute;
+}
+
+.get-tuch #top,#bottom{
+ margin-top: 50px;
+}
+
+.get-tuch #top a,#bottom a{
+    text-decoration: none;
+    color: #984bf0;
+}
+
+.span-button{
+    padding: 20px;
+    background-color: #453d4c;
+
+    border-radius: 2px;
+}
+
+.span-button:hover{
+    background-color: #984bf0;
+    color: #000;
+}
+
+
+
+
+
+
+@media (max-width:768px) {
+     .get-tuch {
+       margin-left: 17%;
+        width: 250px;
+        display: block;
+        position: absolute;
+     }   
+    
+
+     
+    }
+
+
+
+
+
+
+
+/*    =================================================================================     */
+/*    --------------------        about me                     ---------------------     */
+/*    ======================================================19.5=========================     */
+
+.about{
+    height: 40rem;
+    margin-top: 7rem;
+}
+
+.head-cont .head{
+    text-align: center;
+    color: var(--text-color);
+}
+
+.about-main{
+
+    width: 50%;
+    height: 25rem;
+    background-color: #2e2931;
+    margin-left: 25%;
+    margin-top: 3rem;
+    position: relative;
+}
+
+
+.round-for-photo{
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    background-image: url(image/IMG_7126.jpg);
+    background-size: 125%;
+    background-position: center;
+    width: 9rem;
+    height: 10rem;
+    margin-left:2rem;
+    margin-top: 2rem;
+    position: absolute;    
+}
+
+/*    =================================================================================     */
+/*    --------------------        my      skill                     ---------------------     */
+/*    ======================================================19.5=========================     */
+
+
+
+
+/*    =================================================================================     */
+/*    --------------------        my projeccts                     ---------------------     */
+/*    ======================================================19.5=========================     */
+
+
+
+
+/*    ==============================================================================     */
+/*    --------------------        botttom                     ---------------------     */
+/*    ===============================================================================     */
+
+
+.copy-rigth{
+
+    height: 16rem;
+    background: #2e2931;
+
+}
+
+
+.made span img{
+    background-color: #52118c;
+}
+
+
+.bottom{
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+
+
+@media (max-width:768px) {
+    .made{
+        margin-left: 50%;
+        display: flex;
+    
+    }
+
+
+
+    /* ============================= */
+
+    .round-for-photo{
+        display: none;
+    }
+
+
+
+    /* ============================= */
+}
+
+
+
+
+
+
+

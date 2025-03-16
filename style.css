@@ -1,10 +1,12 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Tangerine:wght@400;700&display=swap');
+
 
 *{
-    box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding:0;
+    box-sizing: border-box;
+
 
 
     font-family: "Space Grotesk", serif;
@@ -16,349 +18,352 @@
 }
 
 
+
+
+
 :root{
-
-
-    --primery:#222022;
-    --secondery:#322d32;
-    --teritiory:#a80df5;
-    --text-color:#e6ceee;
-    --border-color:#e3d6df;
-    --border-color-2:#8d6d94;
-
-
-
-
-
-
-
-    --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
-    --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
-
-
-
-
-
-
-
-    --border-gradient-onyx: linear-gradient(
-        to bottom right, 
-        hsl(0, 2%, 21%) 0%, 
-        hsla(0, 2%, 9%, 0) 50%
-      );
-
-
-
-      --bg-gradient-jet: linear-gradient(
-        to bottom right, 
-        hsla(303, 11%, 36%, 0.251) 0%, 
-        hsla(319, 9%, 34%, 0) 100%
-      ), hsl(312, 5%, 21%);
+    --body:#1c1c20;
+    --logo:#4d4a4fa8;
+    --text:#e1b5f3;
+    --outline:#988db4;
+    --link-text:#a841fc;
+    --red-vio:#7014b1;
 }
+
 
 
 body{
-    background: var(--primery);
-}
-
-
-section{
-    width: auto;
-    height: 400px;
-}
-
-.about{
-    width: auto;
-    height: 30rem;
-}
-
-
-/*    =================================================================================     */
-/*    --------------------          ---------------------     */
-/*    =================================================================================     */
-
-
-
-/*    =================================================================================     */
-/*    --------------------                navbar                  ---------------------     */
-/*    =================================================================================     */
-
-
-#navbar{
-    width: 90%;
-    height: 4rem;
-    background: var(--secondery);
-    margin-top: 0.6rem;
-    margin-left: 5%;
-    position: relative;
-
-    border-radius: 4px;
-
-    /* position: fixed; */
-    z-index: 10;
-    /* border: 1px solid var(--border-color); */
-}
-
-#navbar ul{
-    position: absolute;
-    margin-left: 30%;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    color: var(--primery);
-}
-
-
-#navbar ul li {
-    padding: 1.1rem;
-    padding-left: 1rem;
-    display: flex;
-    font-size:1rem;
-}
-
-
-
-#navbar ul li a{
-  text-decoration: none;
-  color: #984bf0;
-  padding: 0.2rem;
-  border-radius: 0.2rem;
-
-  transition: 0.3s ease-in-out;
-}
-
-#navbar ul li a:hover{
-   background: #984bf0;
-   color:var(--secondery);
-}
-
-
-@media (max-width:786px) {
-
-    #navbar{
-        width: 35%;
-    }
-
-    #navbar ul{
-        display: none;
-    }
-    
+    background: var(--body);
 }
 
 
 
 
+/* ================================================================================================================  */
+/* ================================================================================================================  */
+/*                                                                                                                   */
+/*                                      MAIN SECTION                                                                 */
+/*                                                                                                                   */
+/* ================================================================================================================= */
+/* ================================================================================================================= */
 
-/* logo */
+.section-style{
+    width: 100%;
+    height: 100vh;
+}
 
+
+
+
+#main{                
+    background-image: url("../image/background/drop/backdrops__4_-removebg-preview.png"),
+    url("../image/background/drop/backdrops__3_-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-position: right calc(10% + 80px) top calc(100% - 400px) ,left bottom;
+    /* background-position: right; */
+    background-size: 300px 300px, 300px 300px;
+}
+
+
+
+/* ============ */
+/*  logo  */
+/* =========== */
 
 .logo img {
     width: 3rem;
     position: absolute;
     margin-left: 3rem;
-    margin-top: 0.43rem;
-    
-    border-radius: 2px;
+    margin-top: 1.73rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ================ */
+/*  texts */
+/* ================ */
+
+
+.texts{
+    margin-top: 15%;
+    margin-left: 20%;
+    position: absolute;
+    h4{
+        color: var(--link-text);
+        font-weight: 300;
+    }
+    h1{
+        color: var(--text);
+        font-weight: 700;
+        font-size: 3rem;
+    }
+    h2{
+        color: #6d2aa3;
+    }
 }
 
 
 
-/*    =================================================================================     */
-/*    --------------------          social bar                    ---------------------     */
-/*    ======================================================19.5=========================     */
+
+
+/* ================ */
+/*  get touch  btn*/
+/* ================ */
+
+.get-touch{
+    margin-left: 20%;
+    margin-top: 30%;
+    position: absolute;
+}
+
+ 
+
+.get-touch a{
+    color: var(--text);
+    text-decoration: none;
+    background: var(--logo);
+    padding: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 16px;
+    border-radius: 12px;
+    border: solid 1px var(--outline);
+}
+
+.get-touch a:hover{
+    background: var(--link-text);
+    color: var(--text);
+    transition: 0.5s ease-in-out;
+}
+
+/* =============== */
+/*  resume btn */
+/* ============== */
+
+
+.resume-btn{
+    margin-left: 90%;
+    margin-top: 2%;
+    position: absolute;
+}
+
+.resume-btn a{
+    color: var(--link-text);
+   
+}
+
+/* =============== */
+/* bar */
+/* ============== */
+
+.bar{
+    margin-left: 93%;
+    margin-top: 20%;
+    position: absolute;
+}
+
+.bar ul li{
+
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.bar ul li a{
+    color: var(--link-text  );
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 0.5rem;
+}
+
+.bar ul li a:hover{
+    color: var(--red-vio);
+}
+
+
+
+/* ======================================== */
+/* ======================================= */
+
+/*                MEDIA WIDTH              */
+
+/* ======================================== */
+/* ========================================= */
+
+
+
+
+@media (max-width:768px) {
+
+
+    #main{
+        background-position: left calc(100% + 160px) top calc(100% - 400px) ,left bottom;
+
+    }
+
+
+
+.get-touch{
+    margin-top: 110%;
+}
+.texts{
+    margin-top: 45%;
+    h1{
+        font-size: 2rem;
+    }
+}
+.resume-btn{
+    margin-left: 78%;
+    margin-top: 10%;
+}
+.bar{
+    margin-left: 80%;
+    margin-top: 120%;
+}
+.bar ul li a{
+     font-size:29px;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+/* ================================================================================================================  */
+/* ================================================================================================================  */
+/*                                                                                                                   */
+/*                                      SECTION     ONE                                                              /* 
+/*                 0.1 ==>           [   indroduction    ]                                                           */
+/*                                                                                                                   */
+/* ================================================================================================================= */
+/* ================================================================================================================= */
+
+
+.one{                
+    background-image: url("../image/background/drop/backdrops__6_-removebg-preview.png"),
+    url("../image/background/drop/backdrops__5_-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-position: left calc(100% - 80px) top calc(100% - 100px) ,left calc(10% - 240px) bottom;
+    /* background-position: right; */
+    background-size: 300px 300px, 300px 300px;
+}
+
+
+
+/* ========================== *\
+|*           headdings        *|
+\* ========================== */
+
+
+
+.sub-head1, .sub-head2{
+   margin-left: 20%;
+}
+
+.sub-head1{
+    color: var(--red-vio);
+}
+.sub-head2{
+    color: var(--text);
+}
+
+
+.pera{
+    width: 50%;
+    color: var(--text);
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.pera-3{
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+}
+
+.name{
+    margin-left: 25%;
+    color: var(--text);
+    margin-top: 1%;
+}
+
+
+
+/* ========================== *\
+|*     social bar             *|
+\* ========================== */
 
 
 .social-bar{
-    margin-left: 60%;
-    margin-top: 15%;
+    margin-left: 20%;
+    margin-top: 8%;
     position: absolute;
 }
-
-.social-bar ul a{
-    margin-left: 10px;
-    padding: 5px;
-    font-size: 22px;
-    background-color: #322d32;
-    border-radius: 2px;
-    color: #882ef0;
+.social-bar span a{
+   padding: 15px;
+   background-color: var(--logo);
+   border-radius: 12px;
+   /* border: solid 1px var(--outline); */
+   cursor: pointer;
 }
 
-.social-bar ul a:hover{
-     background-color: #882ef0;
-        color: #322d32;
-}
-
-
-@media (max-width:786px) {
-    .social-bar{
-        margin-left: 20%;
-        margin-top: 90%;
-    }   
-}
-
-
-
-
-/*    =================================================================================     */
-/*    --------------------         GEt in touch                    ---------------------     */
-/*    ======================================================19.5=========================     */
-
-.get-tuch{
-    margin-left: 250px;
-    margin-top: 100px;
-    width: 300px;
-    height: 200px;
-    text-align: center;
-    border-radius: 2px;
-
-    background-color:var(--secondery);
-    position: absolute;
-}
-
-.get-tuch #top,#bottom{
- margin-top: 50px;
-}
-
-.get-tuch #top a,#bottom a{
+.social-bar span a{
+    color: var(--text);
     text-decoration: none;
-    color: #984bf0;
-}
-
-.span-button{
-    padding: 20px;
-    background-color: #453d4c;
-
-    border-radius: 2px;
-}
-
-.span-button:hover{
-    background-color: #984bf0;
-    color: #000;
-}
-
-
-
-
-
-
-@media (max-width:768px) {
-     .get-tuch {
-       margin-left: 17%;
-        width: 250px;
-        display: block;
-        position: absolute;
-     }   
-    
-
-     
-    }
-
-
-
-
-
-
-
-/*    =================================================================================     */
-/*    --------------------        about me                     ---------------------     */
-/*    ======================================================19.5=========================     */
-
-.about{
-    height: 40rem;
-    margin-top: 7rem;
-}
-
-.head-cont .head{
+    font-size: 24px;
     text-align: center;
-    color: var(--text-color);
+    margin-left: 10px;
 }
 
-.about-main{
-
-    width: 50%;
-    height: 25rem;
-    background-color: #2e2931;
-    margin-left: 25%;
-    margin-top: 3rem;
-    position: relative;
-}
-
-
-.round-for-photo{
-    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
-    background-image: url(image/IMG_7126.jpg);
-    background-size: 125%;
-    background-position: center;
-    width: 9rem;
-    height: 10rem;
-    margin-left:2rem;
-    margin-top: 2rem;
-    position: absolute;    
-}
-
-/*    =================================================================================     */
-/*    --------------------        my      skill                     ---------------------     */
-/*    ======================================================19.5=========================     */
-
-
-
-
-/*    =================================================================================     */
-/*    --------------------        my projeccts                     ---------------------     */
-/*    ======================================================19.5=========================     */
-
-
-
-
-/*    ==============================================================================     */
-/*    --------------------        botttom                     ---------------------     */
-/*    ===============================================================================     */
-
-
-.copy-rigth{
-
-    height: 16rem;
-    background: #2e2931;
-
-}
-
-
-.made span img{
-    background-color: #52118c;
-}
-
-
-.bottom{
-    width: auto;
-    height: auto;
-    display: flex;
+.social-bar span a:hover{
+    background-color: var(--link-text);
+    color: var(--body);
 }
 
 
 
-@media (max-width:768px) {
-    .made{
-        margin-left: 50%;
-        display: flex;
+/* ======================================== */
+/* ======================================= */
+
+/*                MEDIA WIDTH              */
+
+/* ======================================== */
+/* ========================================= */
+
+
+
+@media (max-width:768px){
+
+
     
-    }
-
-
-
-    /* ============================= */
-
-    .round-for-photo{
-        display: none;
-    }
-
-
-
-    /* ============================= */
+.one{                
+    background-image: url("../image/background/drop/backdrops__6_-removebg-preview.png"),
+    url("../image/background/drop/backdrops__5_-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-position: left calc(100% + 30px) top calc(100% - 160px) ,left calc(100% - 240px) bottom;
+    /* background-position: right; */
+    background-size: 200px 200px, 300px 300px;
 }
 
 
 
 
+    .pera-1{
+        margin-top: 7%;
+    }
 
+    .social-bar{
+        margin-top: 35%;
+    }
 
+}
 
