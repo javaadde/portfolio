@@ -760,20 +760,6 @@ h1{
 
 
 
-::-webkit-scrollbar{
-    width: 3px;
-}
-::-webkit-scrollbar-track{
-    background:var(--ooo);
-}
-::-webkit-scrollbar-thumb{
-    background: var(--last);
-}
-::-webkit-scrollbar-thumb:hover{
-    background: var(--fff);
-}
-
-
 
 /*              */
 /*  theme-btn   */

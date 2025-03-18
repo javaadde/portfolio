@@ -1,0 +1,23 @@
+
+
+
+.illustration-sec{
+    height: 130vh;
+}
+
+.g-1{
+    background-image: url('/image/background/graphics/ramadan.png');
+}
+
+.g-2{
+    background-image: url('/image/background/graphics/holi-fest.png');
+}
+
+
+@media (max-width:768px) {
+
+    .illustration-sec{
+        margin-top: 15%;
+    }
+
+}

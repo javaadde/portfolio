@@ -242,6 +242,15 @@ body{
 
 
 
+@media (max-width: 375px) and (max-height: 740px) {
+    .get-touch{
+        margin-top: 110%;
+       }
+}
+
+
+
+
 
 
 
@@ -375,6 +384,14 @@ body{
     }
 
 }
+
+
+@media (max-width: 375px) and (max-height: 740px) {
+    .one {
+       height: 120vh;
+    }
+}
+
 
 
 
@@ -570,6 +587,10 @@ body{
     background-image: url('./image/background/illustrations/Untitled\ design\ \(14\).png');
 }
 
+.d-3{
+    background-image: url('./image/background/illustrations/Untitled\ design\ \(4\).png');
+}
+
 
 .design span a{
     color: var(--body);
@@ -604,7 +625,7 @@ body{
 @media (max-width:768px) { 
 
     .three{
-        height: 90vh;
+        height: 80vh;
     }
 
     .design-container{
@@ -622,6 +643,7 @@ body{
     }
 
 }
+
 
 
 @media only screen 
@@ -691,7 +713,7 @@ body{
 
 .last span{
     margin-left: 45%;
-    margin-top: 2%;
+    margin-top: 3%;
     display: inline-block;
     color: var(--text);
 }
@@ -699,7 +721,38 @@ body{
 @media (max-width:768px) { 
    .last span{
     margin-left: 40%;
+    margin-top: 12%;
    }
 }
 
+
+
+
+
+/* ======================================== */
+/* ======================================= */
+
+/*        webkits                          */
+
+/* ======================================== */
+/* ========================================= */
+
+
+
+
+
+
+
+::-webkit-scrollbar{
+    width: 4px;
+}
+::-webkit-scrollbar-track{
+    background:var(--body);
+}
+::-webkit-scrollbar-thumb{
+    background: var(--red-vio);
+}
+::-webkit-scrollbar-thumb:hover{
+    background: var(--link-text);
+}
 
