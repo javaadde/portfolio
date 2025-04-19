@@ -625,7 +625,9 @@ body{
 @media (max-width:768px) { 
 
     .three{
-        height: 80vh;
+        min-height: 80vh;
+        max-height: 170vh;
+        /* height: 80vh; */
     }
 
     .design-container{
@@ -691,7 +693,22 @@ body{
     }
 }
 
+@media (max-width: 767px) {
+    .three {
+        height: 100vh;
+    }
+}
 
+/* 
+@media (max-width: 568px) {
+    .two {
+        height: 180vh;
+        margin-top: 22%;
+    }
+    .three{
+        height: 110vh;
+    }
+} */
 
 
 /* ================================================================================================================= */
