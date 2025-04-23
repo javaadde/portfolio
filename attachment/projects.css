@@ -69,6 +69,14 @@
 /* ====================================== */
 
 
+
+
+.list-container{
+    width: 90%;
+    margin-left: 5%;
+}
+
+
 .horizontal-raw{
     display: inline-block;
     width: 100%;
@@ -194,6 +202,7 @@ transition: 0.5s ease-in;
 
 
 @media (max-width:768px) {
+
 
 .horizontal-raw{
     height: 120px;
