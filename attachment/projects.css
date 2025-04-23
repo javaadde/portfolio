@@ -224,18 +224,20 @@ transition: 0.5s ease-in;
 
 .top-row{
 
+    margin-top: 10%;
+
     
 .title{
     margin-left:5%;
 }
 .languages{
-    margin-left: 21%;
+    margin-left: 17%;
 }
 .links{
-    margin-left: 15%;
+    margin-left: 12%;
 }
 .year{
-    margin-left: 3%;
+    margin-left: 0%;
 }
 
 }
