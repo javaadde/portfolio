@@ -204,6 +204,13 @@ transition: 0.5s ease-in;
 @media (max-width:768px) {
 
 
+
+    .list-container{
+        width: 95%;
+        margin-left: 2.5%;
+    }
+
+
 .horizontal-raw{
     height: 120px;
 }
