@@ -258,6 +258,19 @@ transition: 0.5s ease-in;
 
 }
 
+.horizontal-raw ul{
+    margin-top: 7%;
 
+    .title{
+        margin-top: 3%;
+    }
+    .languages{
+        margin-top: 3%;
+    }
+    .year{
+        margin-top: 3%;
+    }
+
+}
 
 }
