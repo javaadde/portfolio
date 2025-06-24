@@ -270,7 +270,7 @@ body{
     background-repeat: no-repeat;
     background-position: left calc(100% - 80px) top calc(100% - 100px) ,left calc(10% - 240px) bottom;
     /* background-position: right; */
-    background-size: 300px 300px, 300px 300px;
+    background-size: 300px;
 }
 
 
